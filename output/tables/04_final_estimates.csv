@@ -1,0 +1,10 @@
+Method,ATE (kg),95% CI,Bias removed (kg)
+Naive (unadjusted),2.5,--,--
+IPW (stabilised),3.4,"(2.4, 4.5)",-0.9
+IPW (nonstabilised),3.4,"(2.4, 4.5)",-0.9
+IPW (trimmed),3.4,"(2.5, 4.4)",-0.9
+PS matching (ATT),3.3,"(2.2, 4.4)",-0.8
+PS stratification,3.3,--,-0.7
+G-formula,3.5,"(2.6, 4.5)",-1.0
+AIPW (doubly robust),3.5,"(2.5, 4.4)",-0.9
+Double LASSO,3.5,"(2.5, 4.4)",-0.9

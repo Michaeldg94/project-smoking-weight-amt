@@ -1,0 +1,7 @@
+Quantity,Value (kg)
+E[Y(1)] lower,-29.5
+E[Y(1)] upper,37.2
+E[Y(0)] lower,-9.1
+E[Y(0)] upper,14.0
+ATE lower,-43.5
+ATE upper,46.4
