@@ -1,0 +1,170 @@
+{
+  "algorithm": "PC",
+  "ci_test": "KCI",
+  "alpha": 0.05,
+  "n_variables": 16,
+  "variables": [
+    "age",
+    "sex",
+    "race",
+    "education",
+    "income",
+    "marital",
+    "wt71",
+    "smokeintensity",
+    "smokeyrs",
+    "exercise",
+    "active",
+    "cholesterol",
+    "bronch",
+    "alcoholpy",
+    "qsmk",
+    "wt82_71"
+  ],
+  "n_edges": 27,
+  "edges": [
+    {
+      "from": "age",
+      "to": "marital",
+      "type": "directed"
+    },
+    {
+      "from": "age",
+      "to": "smokeyrs",
+      "type": "directed"
+    },
+    {
+      "from": "age",
+      "to": "cholesterol",
+      "type": "directed"
+    },
+    {
+      "from": "age",
+      "to": "qsmk",
+      "type": "directed"
+    },
+    {
+      "from": "sex",
+      "to": "education",
+      "type": "directed"
+    },
+    {
+      "from": "sex",
+      "to": "marital",
+      "type": "directed"
+    },
+    {
+      "from": "sex",
+      "to": "wt71",
+      "type": "directed"
+    },
+    {
+      "from": "sex",
+      "to": "smokeintensity",
+      "type": "directed"
+    },
+    {
+      "from": "sex",
+      "to": "smokeyrs",
+      "type": "directed"
+    },
+    {
+      "from": "sex",
+      "to": "exercise",
+      "type": "directed"
+    },
+    {
+      "from": "sex",
+      "to": "cholesterol",
+      "type": "directed"
+    },
+    {
+      "from": "race",
+      "to": "income",
+      "type": "directed"
+    },
+    {
+      "from": "race",
+      "to": "smokeintensity",
+      "type": "directed"
+    },
+    {
+      "from": "race",
+      "to": "exercise",
+      "type": "directed"
+    },
+    {
+      "from": "income",
+      "to": "education",
+      "type": "directed"
+    },
+    {
+      "from": "education",
+      "to": "marital",
+      "type": "directed"
+    },
+    {
+      "from": "smokeyrs",
+      "to": "education",
+      "type": "directed"
+    },
+    {
+      "from": "education",
+      "to": "wt82_71",
+      "type": "directed"
+    },
+    {
+      "from": "marital",
+      "to": "income",
+      "type": "directed"
+    },
+    {
+      "from": "alcoholpy",
+      "to": "income",
+      "type": "directed"
+    },
+    {
+      "from": "cholesterol",
+      "to": "marital",
+      "type": "directed"
+    },
+    {
+      "from": "wt71",
+      "to": "cholesterol",
+      "type": "directed"
+    },
+    {
+      "from": "wt71",
+      "to": "wt82_71",
+      "type": "directed"
+    },
+    {
+      "from": "smokeintensity",
+      "to": "qsmk",
+      "type": "directed"
+    },
+    {
+      "from": "active",
+      "to": "exercise",
+      "type": "directed"
+    },
+    {
+      "from": "exercise",
+      "to": "wt82_71",
+      "type": "directed"
+    },
+    {
+      "from": "qsmk",
+      "to": "wt82_71",
+      "type": "directed"
+    }
+  ],
+  "edges_involving_treatment": [
+    "age -> qsmk",
+    "education -> wt82_71",
+    "exercise -> wt82_71",
+    "qsmk -> wt82_71",
+    "smokeintensity -> qsmk",
+    "wt71 -> wt82_71"
+  ]
+}

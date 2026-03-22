@@ -1,0 +1,6 @@
+variable,shapiro_p,skewness,excess_kurtosis,flag
+age,5.08e-18,0.25,-0.85,
+cholesterol,3.78e-12,0.54,0.6,
+smokeintensity,1.08e-26,0.76,0.7,
+smokeyrs,5.99e-14,0.36,-0.51,
+wt71,6.66e-18,0.78,1.01,
