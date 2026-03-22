@@ -48,7 +48,7 @@ Source files sit in `data/`:
 
 ## Getting started
 
-Requires Python 3.13 or later.
+Requires Python 3.12 or later.
 
 ``` bash
 # Clone the repo

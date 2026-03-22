@@ -99,12 +99,12 @@
       "type": "directed"
     },
     {
-      "from": "education",
-      "to": "marital",
+      "from": "smokeyrs",
+      "to": "education",
       "type": "directed"
     },
     {
-      "from": "smokeyrs",
+      "from": "alcoholpy",
       "to": "education",
       "type": "directed"
     },
@@ -124,8 +124,8 @@
       "type": "directed"
     },
     {
-      "from": "cholesterol",
-      "to": "marital",
+      "from": "marital",
+      "to": "cholesterol",
       "type": "directed"
     },
     {
